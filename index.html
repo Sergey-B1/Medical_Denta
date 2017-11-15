@@ -4,82 +4,191 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" href="index.css">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600&amp;subset=cyrillic" rel="stylesheet">
 <title>Сайт</title>
 </head>
 <body>
-<div class="wrapper">
-  <section class="toolbar">
-
-  </section>
-  <section class="intro">
-    <div class="intro__img">
-
+  <div class="toolbar">
+    <div class="toolbar__wrapper">
+      <div class="wrapper-left">
+        <div class="wrapper">
+          <section class="toolbar__telephone">
+            <div class="toolbar__telephone--img">
+              <img src="./svg/phone.svg">
+            </div>
+            <div class="toolbar__telephone--text">
+              <a href="">(8482) 77-34-84, 77-33-85, 77-33-86</a>
+            </div>
+          </section>
+          <section class="toolbar__call">
+            <div class="toolbar__call--img">
+              <img src="./svg/callback.svg">
+            </div>
+            <div class="toolbar__call--text">
+              <a href="">ОБРАТНЫЙ ЗВОНОК</a>
+            </div>
+          </section>
+          <section class="toolbar__adress">
+            <div class="toolbar__adress--img">
+              <img src="./svg/location.svg">
+            </div>
+            <div class="toolbar__adress--text">
+              <a href="">ТОЛЬЯТТИ, ЛЕНИНГРАДСКАЯ, 45</a>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="wrapper-right">
+        <section class="toolbar__priem">
+          <div class="toolbar__priem--img noactive">
+            <img src="./svg/appointment-register.svg">
+          </div>
+          <div class="toolbar__priem--img active">
+            <img src="./svg/appointment-register-active.svg">
+          </div>
+          <div class="toolbar__priem--text">
+            ЗАПИСЬ НА ПРИЕМ
+          </div>
+        </section>
+      </div>
     </div>
-  </section>
-  <section class="services">
+  </div>
+<!-- --------Следующий блок---------- -->
+  <div class="intro">
+      <section class="intro-menu">
+        <div class="intro-menu__img">
+          <img src="./svg/insayur-logo.svg">
+        </div>
+        <div class="intro-menu__text">
+          <a href="">УСЛУГИ</a>
+        </div>
+        <div class="intro-menu__text">
+          <a href="">ГАЛЕРЕЯ РАБОТ</a>
+        </div>
+        <div class="intro-menu__text">
+          <a href="">ЦЕНЫ</a>
+        </div>
+        <div class="intro-menu__text">
+          <a href="">СТАТЬИ</a>
+        </div>
+        <div class="intro-menu__text">
+          <a href="">ВОПРОС-ОТВЕТ</a>
+        </div>
+        <div class="intro-menu__text">
+          <a href="">СОТРУДНИКИ</a>
+        </div>
+        <div class="intro-menu__text">
+          <a href="">КОНТАКТЫ</a>
+        </div>
+        <div class="intro-menu__text">
+          <a href="">ЛИЦЕНЗИЯ</a>
+        </div>
+      </section>
+    <div class="intro__wrapper">
+      <section class="intro-slider">
+        <div class="intro-slider__info">
+          <span>20% СКИДКА</span>
+          <span>НА ЛЕЧЕНИЕ ЗУБОВ</span>
+        </diV>
+        <div class="intro-slider__time">
+          C 9 по 15 октября
+        </div>
+        <div class="intro-slider__button">
+          <a href="">ПОСМОТРЕТЬ ПОДРОБНЕЕ</a>
+        </div>
+      </section>
+    </div>
+  </div>
+<!-- --------Следующий блок---------- -->
+  <div class="services">
     <div class="services__item">
       НАШИ УСЛУГИ
     </div>
     <div class="services__wrapper">
-      <div class="services__block block">
-        <div class="services__block-img">
+      <section class="services__block block">  <!-- --1-- -->
+        <div class="services__block--img noactive">
           <img src="./svg/Test icons/Treatment.svg">
         </div>
-        <div class="services__block-text">
-          <span>ЛЕЧЕНИЕ</span>
-          <span class="hover"> от 500 &#8381; </span>
+        <div class="services__block--img active">
+          <img src="./svg/Test icons/Treatment-hover.svg">
         </div>
-      </div>
-      <div class="services__block block">
-        <div class="services__block-img">
+        <div class="services__block--text">
+          <span>ЛЕЧЕНИЕ</span>
+          <span class="active"> от 500 &#8381; </span>
+        </div>
+      </section>
+      <section class="services__block block">  <!-- --2-- -->
+        <div class="services__block--img noactive">
           <img src="./svg/Test icons/implant.svg">
         </div>
-        <div class="services__block-text">
-          <span>ИМПЛАНТАЦИЯ</span>
-          <span class="hover"> от 500 &#8381; </span>
+        <div class="services__block--img active">
+          <img src="./svg/Test icons/implant-hover.svg">
         </div>
-      </div>
-      <div class="services__block block">
-        <div class="services__block-img">
+        <div class="services__block--text">
+          <span>ИМПЛАНТАЦИЯ</span>
+          <span class="active"> от 500 &#8381; </span>
+        </div>
+      </section>
+      <section class="services__block block">  <!-- --3-- -->
+        <div class="services__block--img noactive">
           <img src="./svg/Test icons/prothesis.svg">
         </div>
-        <div class="services__block-text">
-          <span>ПРОТЕЗИРОВАНИЕ</span>
-          <span class="hover"> от 500 &#8381; </span>
+        <div class="services__block--img active">
+          <img src="./svg/Test icons/prothesis-hover.svg">
         </div>
-      </div>
-      <div class="services__block block">
-        <div class="services__block-img">
+        <div class="services__block--text">
+          <span>ПРОТЕЗИРОВАНИЕ</span>
+          <span class="active"> от 500 &#8381; </span>
+        </div>
+      </section>
+      <section class="services__block block">  <!-- --4-- -->
+        <div class="services__block--img noactive">
           <img src="./svg/Test icons/Ortondont.svg">
         </div>
-        <div class="services__block-text">
-          <span>ОРТОДОНТИЯ</span>
-          <span class="hover"> от 500 &#8381; </span>
+        <div class="services__block--img active">
+          <img src="./svg/Test icons/Ortondont-hover.svg">
         </div>
-      </div>
-      <div class="services__block block">
-        <div class="services__block-img">
+        <div class="services__block--text">
+          <span>ОРТОДОНТИЯ</span>
+          <span class="active"> от 500 &#8381; </span>
+        </div>
+      </section>
+      <section class="services__block block">  <!-- --5-- -->
+        <div class="services__block--img noactive">
           <img src="./svg/Test icons/kids.svg">
         </div>
-        <div class="services__block-text">
-          <span>ЛЕЧЕНИЕ ДЕТЕЙ</span>
-          <span class="hover"> от 500 &#8381; </span>
+        <div class="services__block--img active">
+          <img src="./svg/Test icons/kids-hover.svg">
         </div>
-      </div>
-      <div class="services__block block">
-        <div class="services__block-img">
+        <div class="services__block--text">
+          <span>ЛЕЧЕНИЕ ДЕТЕЙ</span>
+          <span class="active"> от 500 &#8381; </span>
+        </div>
+      </section>
+      <section class="services__block block">  <!-- --6-- -->
+        <div class="services__block--img noactive">
           <img src="./svg/Test icons/Whitening.svg">
         </div>
-        <div class="services__block-text">
-          <span>ОТБЕЛИВАНИЕ</span>
-          <span class="hover"> от 500 &#8381; </span>
+        <div class="services__block--img active">
+          <img src="./svg/Test icons/Whitening-hover.svg">
         </div>
-      </div>
+        <div class="services__block--text">
+          <span>ОТБЕЛИВАНИЕ</span>
+          <span class="active"> от 500 &#8381; </span>
+        </div>
+      </section>
     </div>
-  </section>
-</div>
+  </div>
+  <!-- --------Следующий блок---------- -->
+  <div class="review"> 425 px
+    <div class="services__item">
+      ОТЗЫВЫ О НАШЕЙ РАБОТЕ
+    </div>
+    <div class="review__content">
+
+    </div>
+  </div>
 </body>
 
 

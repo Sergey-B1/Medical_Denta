@@ -1,0 +1,75 @@
+body {
+  background: #f2f2f2;
+}
+.toolbar {
+  height: 50px;
+  width: 100%;
+  background: #333333;
+  &__wrapper {
+    width: 1024px;
+    margin: auto;
+  }
+}
+.wrapper-left,
+.wrapper-right {
+  display: inline-block;
+}
+.wrapper {
+  width: 788px;
+  height: 50px;
+  display: flex;
+}
+.toolbar {
+  &__telephone,
+  &__adress,
+  &__call,
+  &__priem {
+    display: flex;
+    align-items: center;
+    &--img{
+      display: inline-block;
+      height: 20px;
+      margin-right: 16px;
+      text-align: center;
+      vertical-align: middle;
+    }
+    &--text{
+      display: inline-block;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 12px;
+      margin-right: 32px;
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+      &:hover a{
+        color: #008e70;
+      }
+    }
+  }
+}
+.toolbar__priem {
+  width: 232px;
+  height: 50px;
+  background: #4cb050;
+  color: #fff;
+  justify-content: center;
+  &--text {
+    margin-right: 0;
+  }
+  .noactive{
+    display: block;
+  }
+  .active{
+    display: none;
+  }
+  &:hover{
+    background: #8cc63f;
+    .noactive{
+      display: none;
+    }
+    .active{
+      display: block;
+    }
+  }
+}

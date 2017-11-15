@@ -1,0 +1,76 @@
+.intro {
+  height: 670px;
+  width: 1280px;
+  margin: auto;
+  background-image:url(./Images/1st-screen-1920x1080-dark.jpg);
+  background-size: 145%;
+  background-position: center -35px;
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    height: 450px;
+  }
+}
+.intro-menu {
+  width: 1024px;
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 15px;
+  &__text {
+    margin-left: 32px;
+    & a{
+      text-decoration: none;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      color: #fff;
+    }
+    &:hover a{
+      color: #4cb050;
+    }
+  }
+}
+.intro-slider {
+  width: 768px;
+  margin-left: 180px;
+  margin-top: 150px;
+  &__info {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 56px;
+    color: #fff;
+    margin-bottom: 53px;
+    span {
+      display: block;
+      line-height: 42px;
+      margin-bottom: 25px;
+    }
+  }
+  &__time {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    line-height: 13px;
+    margin-bottom: 56px;
+  }
+  &__button {
+    width: 232px;
+    height: 60px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #fff;
+    margin-bottom: 56px;
+    & a {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 12px;
+      color: #fff;
+      text-decoration: none;
+    }
+    &:hover {
+      background: #4cb050;
+      border: none;
+    }
+  }
+}
