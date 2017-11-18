@@ -9,38 +9,40 @@
 <title>Сайт</title>
 </head>
 <body>
-  <div class="toolbar">
+  <section class="toolbar">
     <div class="toolbar__wrapper">
       <div class="wrapper-left">
         <div class="wrapper">
-          <section class="toolbar__telephone">
-            <div class="toolbar__telephone--img">
+          <div class="toolbar__item">
+            <div class="toolbar__item--img">
               <img src="./svg/phone.svg">
             </div>
-            <div class="toolbar__telephone--text">
-              <a href="">(8482) 77-34-84, 77-33-85, 77-33-86</a>
+            <div class="toolbar__item--text">
+              <a class="a-tel" href="tel:(8482)77-34-84">(8482) 77-34-84,</a>
+              <a class="a-tel" href="tel:(8482)77-33-85">77-33-85,</a>
+              <a class="a-tel" href="tel:(8482)77-33-86">77-33-86</a>
             </div>
-          </section>
-          <section class="toolbar__call">
-            <div class="toolbar__call--img">
+          </div>
+          <div class="toolbar__item">
+            <div class="toolbar__item--img">
               <img src="./svg/callback.svg">
             </div>
-            <div class="toolbar__call--text">
-              <a href="">ОБРАТНЫЙ ЗВОНОК</a>
+            <div class="toolbar__item--text">
+              <a class="a-text" href="">ОБРАТНЫЙ ЗВОНОК</a>
             </div>
-          </section>
-          <section class="toolbar__adress">
-            <div class="toolbar__adress--img">
+          </div>
+          <div class="toolbar__item">
+            <div class="toolbar__item--img">
               <img src="./svg/location.svg">
             </div>
-            <div class="toolbar__adress--text">
-              <a href="">ТОЛЬЯТТИ, ЛЕНИНГРАДСКАЯ, 45</a>
+            <div class="toolbar__item--text">
+              <a class="a-text" href="">ТОЛЬЯТТИ, ЛЕНИНГРАДСКАЯ, 45</a>
             </div>
-          </section>
+          </div>
         </div>
       </div>
       <div class="wrapper-right">
-        <section class="toolbar__priem">
+        <div class="toolbar__priem">
           <div class="toolbar__priem--img noactive">
             <img src="./svg/appointment-register.svg">
           </div>
@@ -50,13 +52,13 @@
           <div class="toolbar__priem--text">
             ЗАПИСЬ НА ПРИЕМ
           </div>
-        </section>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
 <!-- --------Следующий блок---------- -->
-  <div class="intro">
-      <section class="intro-menu">
+  <section class="intro">
+      <div class="intro-menu">
         <div class="intro-menu__img">
           <img src="./svg/insayur-logo.svg">
         </div>
@@ -84,9 +86,9 @@
         <div class="intro-menu__text">
           <a href="">ЛИЦЕНЗИЯ</a>
         </div>
-      </section>
+      </div>
     <div class="intro__wrapper">
-      <section class="intro-slider">
+      <div class="intro-slider">
         <div class="intro-slider__info">
           <span>20% СКИДКА</span>
           <span>НА ЛЕЧЕНИЕ ЗУБОВ</span>
@@ -97,132 +99,132 @@
         <div class="intro-slider__button">
           <a href="">ПОСМОТРЕТЬ ПОДРОБНЕЕ</a>
         </div>
-      </section>
+      </div>
     </div>
-  </div>
+  </section>
 <!-- --------Следующий блок---------- -->
-  <div class="services">
+  <section class="services">
     <div class="services__item">
       НАШИ УСЛУГИ
     </div>
     <div class="services__wrapper">
-      <section class="services__block block">  <!-- --1-- -->
-        <div class="services__block--img noactive">
-          <img src="./svg/Test icons/Treatment.svg">
+      <div class="services__element block">  <!-- --1-- -->
+        <div class="services__element--img noactive">
+          <img src="./svg/test icons/treatment.svg">
         </div>
-        <div class="services__block--img active">
-          <img src="./svg/Test icons/Treatment-hover.svg">
+        <div class="services__element--img active">
+          <img src="./svg/test icons/treatment-hover.svg">
         </div>
-        <div class="services__block--text">
+        <div class="services__text">
           <span>ЛЕЧЕНИЕ</span>
-          <span class="active"> от 500 &#8381; </span>
+          <span class="price"> от 500 &#8381; </span>
         </div>
-      </section>
-      <section class="services__block block">  <!-- --2-- -->
-        <div class="services__block--img noactive">
-          <img src="./svg/Test icons/implant.svg">
+      </div>
+      <div class="services__element block">  <!-- --2-- -->
+        <div class="services__element--img noactive">
+          <img src="./svg/test icons/implant.svg">
         </div>
-        <div class="services__block--img active">
-          <img src="./svg/Test icons/implant-hover.svg">
+        <div class="services__element--img active">
+          <img src="./svg/test icons/implant-hover.svg">
         </div>
-        <div class="services__block--text">
+        <div class="services__text">
           <span>ИМПЛАНТАЦИЯ</span>
-          <span class="active"> от 500 &#8381; </span>
+          <span class="price"> от 500 &#8381; </span>
         </div>
-      </section>
-      <section class="services__block block">  <!-- --3-- -->
-        <div class="services__block--img noactive">
-          <img src="./svg/Test icons/prothesis.svg">
+      </div>
+      <div class="services__element block">  <!-- --3-- -->
+        <div class="services__element--img noactive">
+          <img src="./svg/test icons/prothesis.svg">
         </div>
-        <div class="services__block--img active">
-          <img src="./svg/Test icons/prothesis-hover.svg">
+        <div class="services__element--img active">
+          <img src="./svg/test icons/prothesis-hover.svg">
         </div>
-        <div class="services__block--text">
+        <div class="services__text">
           <span>ПРОТЕЗИРОВАНИЕ</span>
-          <span class="active"> от 500 &#8381; </span>
+          <span class="price"> от 500 &#8381; </span>
         </div>
-      </section>
-      <section class="services__block block">  <!-- --4-- -->
-        <div class="services__block--img noactive">
-          <img src="./svg/Test icons/Ortondont.svg">
+      </div>
+      <div class="services__element block">  <!-- --4-- -->
+        <div class="services__element--img noactive">
+          <img src="./svg/test icons/ortondont.svg">
         </div>
-        <div class="services__block--img active">
-          <img src="./svg/Test icons/Ortondont-hover.svg">
+        <div class="services__element--img active">
+          <img src="./svg/test icons/ortondont-hover.svg">
         </div>
-        <div class="services__block--text">
+        <div class="services__text">
           <span>ОРТОДОНТИЯ</span>
-          <span class="active"> от 500 &#8381; </span>
+          <span class="price"> от 500 &#8381; </span>
         </div>
-      </section>
-      <section class="services__block block">  <!-- --5-- -->
-        <div class="services__block--img noactive">
-          <img src="./svg/Test icons/kids.svg">
+      </div>
+      <div class="services__element block">  <!-- --5-- -->
+        <div class="services__element--img noactive">
+          <img src="./svg/test icons/kids.svg">
         </div>
-        <div class="services__block--img active">
-          <img src="./svg/Test icons/kids-hover.svg">
+        <div class="services__element--img active">
+          <img src="./svg/test icons/kids-hover.svg">
         </div>
-        <div class="services__block--text">
+        <div class="services__text">
           <span>ЛЕЧЕНИЕ ДЕТЕЙ</span>
-          <span class="active"> от 500 &#8381; </span>
+          <span class="price"> от 500 &#8381; </span>
         </div>
-      </section>
-      <section class="services__block block">  <!-- --6-- -->
-        <div class="services__block--img noactive">
-          <img src="./svg/Test icons/Whitening.svg">
+      </div>
+      <div class="services__element block">  <!-- --6-- -->
+        <div class="services__element--img noactive">
+          <img src="./svg/test icons/whitening.svg">
         </div>
-        <div class="services__block--img active">
-          <img src="./svg/Test icons/Whitening-hover.svg">
+        <div class="services__element--img active">
+          <img src="./svg/test icons/whitening-hover.svg">
         </div>
-        <div class="services__block--text">
+        <div class="services__text">
           <span>ОТБЕЛИВАНИЕ</span>
-          <span class="active"> от 500 &#8381; </span>
+          <span class="price"> от 500 &#8381; </span>
         </div>
-      </section>
+      </div>
     </div>
-  </div>
+  </section>
   <!-- --------Следующий блок---------- -->
-  <div class="aboutus">
+  <section class="aboutus">
     <div class="aboutus__item">
       О НАC
     </div>
     <div class="aboutus__content">
-      <section class="aboutus__content--left">
+      <div class="aboutus__content--left">
 
-      </section>
-      <section class="aboutus__content--text">
+      </diV>
+      <div class="aboutus__content--text">
       Стоматология "Инсаюр Медикал-Дента" была создана в 1995 году, и с самого
       начала существования ключевыми принципами нашей работы были формирование
       долгосрочных взаимоотношений с клиентами, решение их проблем как своих
       собственных.
-      </section>
-      <section class="aboutus__content--right">
+      </div>
+      <div class="aboutus__content--right">
 
-      </section>
+      </div>
     </div>
-  </div>
+  </section>
   <!-- --------Следующий блок---------- -->
-  <div class="review">
+  <section class="review">
     <div class="review__item">
       ОТЗЫВЫ О НАШЕЙ РАБОТЕ
     </div>
     <div class="review__content">
-      <section class="review__content--left">
+      <div class="review__content--left">
 
-      </section>
-      <section class="review__content--text">
+      </div>
+      <div class="review__content--text">
         <div class="review-block1">
           Стоматология "Инсаюр Медикал-Дента" была создана в 1995 году, и с самого
           начала существования ключевыми принципами нашей работы были формирование
           долгосрочных взаимоотношений с клиентами, решение их проблем как своих
           собственных.
-        <div>
+        </div>
         <div class="review-block2">
           Светлана Сорокина
         </div>
-      </section>
-      <section class="review__content--right">
+      </div>
+      <div class="review__content--right">
 
-      </section>
+      </div>
     </div>
     <div class="review__button">
       <div class="review__button--write">
@@ -232,7 +234,63 @@
         <span>ПОСМОТРЕТЬ ВСЕ ОТЗЫВЫ</span>
       </div>
     </div>
-  </div>
+  </section>
+  <!-- --------Следующий блок---------- -->
+  <section class="articles">
+    <div class="articles__item">
+      ПОСЛЕДНИЕ СТАТЬИ
+    </div>
+    <div class="articles__content">
+      <div class="articles__info">
+        <div class="articles__info--img">
+          <img src="./images/office-example.jpg">
+        </div>
+        <div class="articles__info--item">
+          НОВЫЙ ОФИС МЕДИКАЛ ДЕНТЫ
+        </div>
+        <div class="articles__info--text">
+          "Лечение кариеса производится с использованием особо "щадящих" технологий.
+          В расположении врача имеется необходимый набор..."
+        </div>
+        <div class="articles__info--link">
+          ЧИТАТЬ ДАЛЕЕ
+        </div>
+      </div>
+      <div class="articles__info">
+        <div class="articles__info--img">
+          <img src="./images/kids-example.jpg">
+        </div>
+        <div class="articles__info--item">
+          ОСОБЕННОСТИ ЛЕЧЕНИЯ ДЕТЕЙ
+        </div>
+        <div class="articles__info--text">
+          "Лечение кариеса производится с использованием особо "щадящих" технологий.
+          В расположении врача имеется необходимый набор..."
+        </div>
+        <div class="articles__info--link">
+          ЧИТАТЬ ДАЛЕЕ
+        </div>
+      </div>
+      <div class="articles__info">
+        <div class="articles__info--img">
+          <img src="./images/tech-example.jpg">
+        </div>
+        <div class="articles__info--item">
+          ОБОРУДОВАНИЕ ДЛЯ СТОМАТОЛОГИИ
+        </div>
+        <div class="articles__info--text">
+          "Лечение кариеса производится с использованием особо "щадящих" технологий.
+          В расположении врача имеется необходимый набор..."
+        </div>
+        <div class="articles__info--link">
+          ЧИТАТЬ ДАЛЕЕ
+        </div>
+      </div>
+    </div>
+    <div class="articles__button">
+      <span>ПОСМОТРЕТЬ ВСЕ СТАТЬИ</span>
+    </div>
+  </section>
 </body>
 
 

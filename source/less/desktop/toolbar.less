@@ -1,10 +1,8 @@
-body {
-  background: #f2f2f2;
-}
 .toolbar {
   height: 50px;
   width: 100%;
   background: #333333;
+  margin: 0;
   &__wrapper {
     width: 1024px;
     margin: auto;
@@ -20,9 +18,7 @@ body {
   display: flex;
 }
 .toolbar {
-  &__telephone,
-  &__adress,
-  &__call,
+  &__item,
   &__priem {
     display: flex;
     align-items: center;
@@ -38,11 +34,15 @@ body {
       font-family: 'Open Sans', sans-serif;
       font-size: 12px;
       margin-right: 32px;
-      a {
+      .a-text,
+      .a-tel {
         color: #fff;
         text-decoration: none;
+        &:hover {
+          color: #008e70;
+        }
       }
-      &:hover a{
+      &:hover .a-text {
         color: #008e70;
       }
     }
