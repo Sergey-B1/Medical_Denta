@@ -6,6 +6,8 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" href="styles.css" />
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600&amp;subset=cyrillic" rel="stylesheet">
+<link rel="stylesheet" href="./slick/slick.css"/>
+<link rel="stylesheet" href="./slick/slick-theme.css"/>
 <title>Сайт</title>
 </head>
 <body>
@@ -56,37 +58,41 @@
         </div>
       </div>
   </section>
-<!-- --------Следующий блок---------- -->
+  <!-- --------Следующий блок---------- -->
   <section class="intro">
-      <div class="intro-menu">
-        <div class="intro-menu__img">
-          <img src="./svg/insayur-logo.svg">
-        </div>
-        <div class="intro-menu__text">
-          <a href="">УСЛУГИ</a>
-        </div>
-        <div class="intro-menu__text">
-          <a href="">ГАЛЕРЕЯ РАБОТ</a>
-        </div>
-        <div class="intro-menu__text">
-          <a href="">ЦЕНЫ</a>
-        </div>
-        <div class="intro-menu__text">
-          <a href="">СТАТЬИ</a>
-        </div>
-        <div class="intro-menu__text">
-          <a href="">ВОПРОС-ОТВЕТ</a>
-        </div>
-        <div class="intro-menu__text">
-          <a href="">СОТРУДНИКИ</a>
-        </div>
-        <div class="intro-menu__text">
-          <a href="">КОНТАКТЫ</a>
-        </div>
-        <div class="intro-menu__text">
-          <a href="">ЛИЦЕНЗИЯ</a>
+    <div class="intro__menu-wrapper">
+      <div class="intro-menu-img">
+        <img src="./svg/insayur-logo.svg">
+      </div>
+      <div class="menu-wrapper">
+        <div class="menu">
+          <div class="menu__text">
+            <a href="">УСЛУГИ</a>
+          </div>
+          <div class="menu__text">
+            <a href="">ГАЛЕРЕЯ РАБОТ</a>
+          </div>
+          <div class="menu__text">
+            <a href="">ЦЕНЫ</a>
+          </div>
+          <div class="menu__text">
+            <a href="">СТАТЬИ</a>
+          </div>
+          <div class="menu__text">
+            <a href="">ВОПРОС-ОТВЕТ</a>
+          </div>
+          <div class="menu__text">
+            <a href="">СОТРУДНИКИ</a>
+          </div>
+          <div class="menu__text">
+            <a href="">КОНТАКТЫ</a>
+          </div>
+          <div class="menu__text">
+            <a href="">ЛИЦЕНЗИЯ</a>
+          </div>
         </div>
       </div>
+    </div>
     <div class="intro__wrapper">
       <div class="intro-slider">
         <div class="intro-slider__info">
@@ -102,7 +108,7 @@
       </div>
     </div>
   </section>
-<!-- --------Следующий блок---------- -->
+  <!-- --------Следующий блок---------- -->
   <section class="services">
     <div class="services__item">
       НАШИ УСЛУГИ
@@ -184,22 +190,27 @@
   </section>
   <!-- --------Следующий блок---------- -->
   <section class="aboutus">
-    <div class="aboutus__item">
-      О НАC
-    </div>
-    <div class="aboutus__content">
-      <div class="aboutus__content--left">
+    <div class="slick-aboutus">
+      <div>
+        <div class="aboutus__item">
+          О НАC
+        </div>
+        <div class="aboutus__content">
+          <div class="aboutus__content--left">
 
-      </diV>
-      <div class="aboutus__content--text">
-      Стоматология "Инсаюр Медикал-Дента" была создана в 1995 году, и с самого
-      начала существования ключевыми принципами нашей работы были формирование
-      долгосрочных взаимоотношений с клиентами, решение их проблем как своих
-      собственных.
-      </div>
-      <div class="aboutus__content--right">
+          </div>
+          <div class="aboutus__content--text">
+          Стоматология "Инсаюр Медикал-Дента" была создана в 1995 году, и с самого
+          начала существования ключевыми принципами нашей работы были формирование
+          долгосрочных взаимоотношений с клиентами, решение их проблем как своих
+          собственных.
+          </div>
+          <div class="aboutus__content--right">
 
+          </div>
+        </div>
       </div>
+
     </div>
   </section>
   <!-- --------Следующий блок---------- -->
@@ -295,66 +306,68 @@
   <section class="footer">
     <div class="footer__wrapper">
       <div class="footer__top">
-        <div class="wrapper-left">
-          <div class="footer__menu">
-            <div class="footer-menu__text">
-              <a href="">УСЛУГИ</a>
-            </div>
-            <div class="footer-menu__text">
-              <a href="">ГАЛЕРЕЯ РАБОТ</a>
-            </div>
-            <div class="footer-menu__text">
-              <a href="">ЦЕНЫ</a>
-            </div>
-            <div class="footer-menu__text">
-              <a href="">СТАТЬИ</a>
-            </div>
-            <div class="footer-menu__text">
-              <a href="">ВОПРОС-ОТВЕТ</a>
-            </div>
-            <div class="footer-menu__text">
-              <a href="">СОТРУДНИКИ</a>
-            </div>
-            <div class="footer-menu__text">
-              <a href="">КОНТАКТЫ</a>
-            </div>
-            <div class="footer-menu__text">
-              <a href="">ЛИЦЕНЗИЯ</a>
+        <div class="footer__top-wrapper">
+          <div class="wrapper-left">
+            <div class="menu">
+              <div class="menu__text menu__text--footer">
+                <a href="">УСЛУГИ</a>
+              </div>
+              <div class="menu__text menu__text--footer">
+                <a href="">ГАЛЕРЕЯ РАБОТ</a>
+              </div>
+              <div class="menu__text menu__text--footer">
+                <a href="">ЦЕНЫ</a>
+              </div>
+              <div class="menu__text menu__text--footer">
+                <a href="">СТАТЬИ</a>
+              </div>
+              <div class="menu__text menu__text--footer">
+                <a href="">ВОПРОС-ОТВЕТ</a>
+              </div>
+              <div class="menu__text menu__text--footer">
+                <a href="">СОТРУДНИКИ</a>
+              </div>
+              <div class="menu__text menu__text--footer">
+                <a href="">КОНТАКТЫ</a>
+              </div>
+              <div class="menu__text menu__text--footer">
+                <a href="">ЛИЦЕНЗИЯ</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="wrapper-right">
-          <div class="footer__socials">
-            <div class="footer-socials__img"> <!---- 1 -- -->
-              <div class="footer-socials__img--noactive">
-                <a href=""><img src="./svg/vk.svg"></a>
+          <div class="wrapper-right">
+            <div class="footer__socials">
+              <div class="footer-socials__img"> <!---- 1 -- -->
+                <div class="footer-socials__img--noactive">
+                  <a href=""><img src="./svg/vk.svg"></a>
+                </div>
+                <div class="footer-socials__img--active">
+                  <a href=""><img src="./svg/vk-hover.svg"></a>
+                </div>
               </div>
-              <div class="footer-socials__img--active">
-                <a href=""><img src="./svg/vk-hover.svg"></a>
+              <div class="footer-socials__img"> <!---- 1 -- -->
+                <div class="footer-socials__img--noactive">
+                  <a href=""><img src="./svg/fb.svg"></a>
+                </div>
+                <div class="footer-socials__img--active">
+                  <a href=""><img src="./svg/fb-hover.svg"></a>
+                </div>
               </div>
-            </div>
-            <div class="footer-socials__img"> <!---- 1 -- -->
-              <div class="footer-socials__img--noactive">
-                <a href=""><img src="./svg/fb.svg"></a>
+              <div class="footer-socials__img"> <!---- 1 -- -->
+                <div class="footer-socials__img--noactive">
+                  <a href=""><img src="./svg/insta.svg"></a>
+                </div>
+                <div class="footer-socials__img--active">
+                  <a href=""><img src="./svg/insta-hover.svg"></a>
+                </div>
               </div>
-              <div class="footer-socials__img--active">
-                <a href=""><img src="./svg/fb-hover.svg"></a>
-              </div>
-            </div>
-            <div class="footer-socials__img"> <!---- 1 -- -->
-              <div class="footer-socials__img--noactive">
-                <a href=""><img src="./svg/insta.svg"></a>
-              </div>
-              <div class="footer-socials__img--active">
-                <a href=""><img src="./svg/insta-hover.svg"></a>
-              </div>
-            </div>
-            <div class="footer-socials__img"> <!---- 1 -- -->
-              <div class="footer-socials__img--noactive">
-                <a href=""><img src="./svg/odnoklassniki.svg"></a>
-              </div>
-              <div class="footer-socials__img--active">
-                <a href=""><img src="./svg/odnoklassniki-hover.svg"></a>
+              <div class="footer-socials__img"> <!---- 1 -- -->
+                <div class="footer-socials__img--noactive">
+                  <a href=""><img src="./svg/odnoklassniki.svg"></a>
+                </div>
+                <div class="footer-socials__img--active">
+                  <a href=""><img src="./svg/odnoklassniki-hover.svg"></a>
+                </div>
               </div>
             </div>
           </div>

@@ -13,12 +13,20 @@
     align-items: center;
     border-top: 1px solid #999999;
   }
+  &__top-wrapper {
+    padding-top: 40px;
+    padding-bottom: 36px;
+    display: flex;
+    justify-content: space-between;
+  }
 }
-.wrapper-left,
-.wrapper-right {
-  display: inline-block;
+.menu__text--footer a {
+  color: #999999;
+  &:hover {
+    color: #fff;
+  }
 }
-.footer__menu {
+/*.footer__menu {
   display: flex;
   align-items: center;
   width: 900px;
@@ -38,11 +46,12 @@
       color: #fff;
     }
   }
-}
+}*/
 .footer__socials {
   width: 120px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .footer-socials__img {
   &--noactive {

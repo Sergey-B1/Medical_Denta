@@ -1,10 +1,9 @@
 .intro {
   height: 670px;
-  width: 1280px;
+  width: auto;
   margin: auto;
   margin-top: 50px;
   background-image:url(./images/1st-screen-1920x1080-dark.jpg);
-  background-size: 145%;
   background-position: center -35px;
   &__wrapper {
     display: flex;
@@ -12,15 +11,20 @@
     align-content: flex-end;
     height: 450px;
   }
+  &__menu-wrapper {
+    width: 1024px;
+    padding-top: 15px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
 }
-.intro-menu {
-  width: 1024px;
-  margin: auto;
+.menu {
   display: flex;
-  align-items: flex-start;
-  padding-top: 15px;
   &__text {
-    margin-left: 32px;
+    margin-right: 32px;
+    line-height: 10px;
     & a {
       text-decoration: none;
       font-family: 'Open Sans', sans-serif;
@@ -32,9 +36,16 @@
     }
   }
 }
+.intro-menu-img {
+  margin-right: 32px;
+}
+.menu-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
 .intro-slider {
   width: 768px;
-  margin-left: 180px;
+  margin: auto;
   margin-top: 150px;
   &__info {
     font-family: 'Open Sans', sans-serif;
