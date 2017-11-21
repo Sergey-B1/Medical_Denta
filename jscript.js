@@ -1,12 +1,18 @@
 
 $('.slick-aboutus').slick(
   {
-    autoplay:true,
+
   }
 );
 
 $('.intro-slider').slick(
   {
+    autoplay:true,
+  }
+);
 
+$('.review-slick').slick(
+  {
+    autoplay:true,
   }
 );
