@@ -2,17 +2,27 @@
 $('.slick-aboutus').slick(
   {
 
+
+
+    prevArrow: '.aboutus-left',
+    nextArrow: '.aboutus-right',
   }
 );
 
 $('.intro-slider').slick(
   {
-    autoplay:true,
+    autoplay: true,
+    speed: 900,
+    prevArrow: '.intro-left',
+    nextArrow: '.intro-right',
+
   }
 );
 
 $('.review-slick').slick(
   {
-    autoplay:true,
+  
+    prevArrow: '.review-left',
+    nextArrow: '.review-right',
   }
 );
