@@ -181,8 +181,12 @@
     font-family: 'slick';
     font-size: 10px;
     line-height: 20px;
-    text-shadow: #fff 0 0 2px;
-
+    /*text-shadow: #fff 0 0 2px;*/
+    text-shadow:
+			-1px -1px 0 #fff,
+			1px -1px 0 #fff,
+			-1px 1px 0 #fff,
+			1px 1px 0 #fff;
     position: absolute;
     top: 0;
     left: 0;
@@ -193,14 +197,14 @@
     content: '•';
     text-align: center;
 
-    opacity: 0.1;
-    color: #fff;
+    opacity: 0.3;
+    color: #999;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 .slick-dots li.slick-active button:before
 {
-    opacity: .75;
+    opacity: 1;
     color: #fff;
 }
